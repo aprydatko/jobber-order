@@ -7,7 +7,7 @@ import { orderSchema } from '@order/schemes/order';
 import { BadRequestError, IOrderDocument } from '@aprydatko/jobber-shared';
 
 jest.mock('@order/services/order.service');
-jest.mock('@uzochukwueddie/jobber-shared');
+jest.mock('@aprydatko/jobber-shared');
 jest.mock('@order/schemes/order');
 jest.mock('@elastic/elasticsearch');
 
